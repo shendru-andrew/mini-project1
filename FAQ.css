@@ -1,0 +1,27 @@
+.product-title-bg{
+  background-image: url(./assets/landscape2-background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#product-title{
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  background-image: linear-gradient(to right, transparent, #000000, transparent);;
+  padding: .4rem 10rem;
+}
+
+#FAQ{
+  /* height: calc(100vh - 571.09px)!important; */
+}
+
+#FAQ > div{
+  margin: 50px 100px;
+}
+
+#copyright{
+  height: calc(100vh - 707.09px);
+}

@@ -1,0 +1,47 @@
+.navbar{
+  background-color: black!important;
+}
+.navbar a{
+  color: white!important;
+}
+#hamburger-icon{
+  background-color: white;
+}
+#search-btn{
+  border-color: white;
+  color: white;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+footer > div > div > div > ul > li > a{
+  text-decoration: none;
+  color: white;
+}
+
+footer > div > div > div > a{
+  display: block;
+  text-align: start;
+}
+
+footer > div{
+  padding: 2rem 0;
+}
+
+.subscribe-button{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.input-group-text{
+  padding: 0;
+}
+#copyright{
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+#copyright p{
+  margin-bottom: 0;
+}

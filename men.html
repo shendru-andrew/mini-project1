@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="page-layout.css">
+  <link rel="stylesheet" href="men.css">
+
+
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">SHEN Clothing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="hamburger-icon">
+        <span class="navbar-toggler-icon" id="navbar-toggler"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./men.html">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./products.html">Women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./products.html">Accessory</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./FAQ.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+      <div class="container-fluid product-title-bg">
+        <h1 id="product-title" class="mx-5">MEN'S CLOTHING</h1>
+      </div>
+      <!-- <div class="row m-5 justify-content-center align-items-center text-center">
+
+        <div class="mx-1 mx-lg-2 col-11 col-lg-3 col-sm-4 col-xxl">
+          <div class="card my-4">
+            <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="card my-4">
+            <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="card my-4">
+            <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-1 mx-lg-2 col-11 col-lg-3  col-sm-6 col-xxl">
+          <div class="card my-4">
+            <img src="./assets/Product3.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card my-4">
+            <img src="./assets/Product3.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card my-4">
+            <img src="./assets/Product3.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-1 mx-lg-2 col-11 col-lg-3  col-sm-6 col-xxl">
+          <div class="card my-4">
+            <img src="./assets/Product2.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card my-4">
+            <img src="./assets/Product2.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card my-4">
+            <img src="./assets/Product2.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-1 mx-lg-2 col-11 col-lg-3  col-sm-6 col-xxl">
+          <div class="card my-4">
+            <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card my-4">
+            <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card my-4">
+            <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-1 mx-lg-2 col-11 col-lg-3  col-sm-6 col-xxl">
+          <div class="card my-4">
+            <img src="./assets/Product4.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card my-4">
+            <img src="./assets/Product4.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card my-4">
+            <img src="./assets/Product4.jpg" class="card-img-top" alt="">
+            <h5>PRODUCT NAME</h5>
+            <p>100.00 PHP</p>
+            <div class="card-body">
+              <button id="btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+      </div> -->
+
+
+
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-indicators m-0">
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active py-2 px-3 bg-black" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2" class="py-2 px-3 bg-black"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3" class="py-2 px-3 bg-black"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row m-5 justify-content-center align-items-center text-center">
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3 col-sm-4 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+          
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+          
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3  col-sm-4 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product3.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product3.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product3.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3  col-sm-4 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product2.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product2.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product2.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3  col-sm-4 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3 col-sm-8 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product4.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product4.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product4.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row m-5 justify-content-center align-items-center text-center">
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3 col-sm-8 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+          
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+          
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3 col-sm-4 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product3.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product3.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product3.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3 col-sm-4 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product2.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product2.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product2.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3 col-sm-4 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3 col-sm-8 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product4.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product4.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product4.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row m-5 justify-content-center align-items-center text-center">
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3 col-sm-4 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+          
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+          
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3 col-sm-4 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product3.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product3.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product3.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3 col-sm-4 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product2.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product2.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product2.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3 col-sm-4 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product1.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                  <div class="mx-1 mx-lg-2 col-11 col-lg-3 col-sm-8 col-xxl">
+                    <div class="card my-4">
+                      <img src="./assets/Product4.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product4.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                    <div class="card my-4">
+                      <img src="./assets/Product4.jpg" class="card-img-top" alt="">
+                      <h5>PRODUCT NAME</h5>
+                      <p>100.00 PHP</p>
+                      <div class="card-body">
+                        <button id="btn">ADD TO CART</button>
+                      </div>
+                    </div>
+                  </div>
+          <!--  -->
+                </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <footer>
+    <div class="container-fluid bg-black text-white">
+      <div class="row">
+        <div class="col d-flex justify-content-center align-items-center">
+          <!-- LOGO -->
+          <h4>SHEN Clothing</h4>
+        </div>
+        <div class="col">
+          <h5>Products</h5>
+          <ul>
+            <li>
+              <a href="#">Men's Clothing</a>
+            </li>
+            <li>
+              <a href="#">Women's Clothing</a>
+            </li>
+            <li>
+              <a href="#">Accessory</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h5>Links</h5>
+          <ul>
+            <li>
+              <a href="#">Search</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h5>Contact</h5>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Type your email here" aria-label="Type your email here" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2"><a href="#" class="btn bg-dark btn-secondary subscribe-button">SUBSCRIBE</a></span>
+          </div>
+          <h5>Connect Us</h5>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-linkedin"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <section class="bg-black text-white text-start" id="copyright">
+    <p class="">&#169; 2023, SHEN Clothing. All Rights Reserved</p>
+  </section>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>

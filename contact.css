@@ -1,0 +1,45 @@
+.product-title-bg{
+  background-image: url(./assets/landscape3-background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#product-title{
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  background-image: linear-gradient(to right, transparent, #000000, transparent);;
+  padding: .4rem 10rem;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+label {
+  color: #333;
+}
+
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px;
+  }
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+
+}
+
+.card{
+margin-left: 10px;
+margin-right: 10px;
+}

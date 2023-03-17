@@ -1,0 +1,56 @@
+#products{
+  height: 100vh;
+}
+.products-container{
+  height: 100%;
+}
+/* .row{
+  margin: 0 300px;
+} */
+/* .product-container{
+  height: 50%;
+} */
+/* button{
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.15);
+  font-size: .8rem;
+  padding: 10px 20px;
+  box-shadow: none;
+} */
+
+#btn{
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.15);
+  font-size: .8rem;
+  padding: 10px 20px;
+  box-shadow: none;
+}
+
+/* .row, #product-title{
+  margin: 0 407px;
+}
+@media screen and (max-width: 1400px) {
+  .row, #product-title{
+    margin: 0 307px;
+  }
+} */
+.product-title-bg{
+  background-image: url(./assets/landscape-background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#product-title{
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  background-image: linear-gradient(to right, transparent, #000000, transparent);;
+  padding: .4rem 10rem;
+}
+.col-11{
+  padding: 0;
+}
