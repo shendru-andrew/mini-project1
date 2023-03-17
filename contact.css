@@ -14,7 +14,7 @@
   padding: .4rem 10rem;
 }
 
-body {
+#contact-us {
   font-family: 'Lato', sans-serif;
 }
 
@@ -42,4 +42,8 @@ label {
 .card{
 margin-left: 10px;
 margin-right: 10px;
+}
+
+#asterisks{
+  color: #ff5050;
 }

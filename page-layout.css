@@ -1,5 +1,7 @@
 .navbar{
   background-color: black!important;
+  /* font-family: 'Oswald';
+  font-size: 1.2rem; */
 }
 .navbar a{
   color: white!important;
@@ -22,13 +24,18 @@ footer > div > div > div > ul > li > a{
   color: white;
 }
 
+footer > .container-fluid > .row > .col > a{
+  text-decoration: none;
+  color: white;
+}
+
 footer > div > div > div > a{
   display: block;
   text-align: start;
 }
 
 footer > div{
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
 .subscribe-button{

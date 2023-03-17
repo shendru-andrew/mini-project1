@@ -54,3 +54,33 @@
 .col-11{
   padding: 0;
 }
+
+.card h5{
+  margin-top: 2rem;
+}
+.card p{
+  margin: 0;
+}
+
+.card{
+  font-family: 'Nunito';
+}
+
+button{
+
+}
+
+.active-button{
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.15);
+  font-size: .8rem;
+  padding: 10px 20px;
+  box-shadow: none;
+  transition: .15s;
+}
+
+.active-button:hover{
+  background-color: #f2ac1d;
+  color: white;
+}

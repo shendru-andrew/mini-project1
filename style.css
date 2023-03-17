@@ -309,13 +309,18 @@ figure{
 
 
 
-footer > .container-fluid > .row > .col > a{
+/* footer > .container-fluid > .row > .col > a{
   text-decoration: none;
   color: white;
-}
+} */
 
 #copyright p{
   margin: 0;
+}
+
+
+#hero-text, #section-titles{
+  font-family: 'Oswald';
 }
 
 /* @media screen and (max-width: 991px) {
