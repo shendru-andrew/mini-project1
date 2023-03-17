@@ -47,3 +47,8 @@ margin-right: 10px;
 #asterisks{
   color: #ff5050;
 }
+
+.contact-message{
+  font-family: 'Oswald';
+  font-size: 1.7rem;
+}

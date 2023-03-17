@@ -25,3 +25,8 @@
 #copyright{
   height: calc(100vh - 707.09px);
 }
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #000000;
+}
