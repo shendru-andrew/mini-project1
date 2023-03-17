@@ -6,6 +6,17 @@
 .navbar a{
   color: white!important;
 }
+.navbar-brand{
+  font-family: 'Caveat';
+  font-size: 2rem;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+#footer-logo{
+  font-family: 'Caveat';
+  font-size: 2rem;
+}
 #hamburger-icon{
   background-color: white;
 }
